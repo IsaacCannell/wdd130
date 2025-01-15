@@ -1,0 +1,16 @@
+
+body{
+  background-color:rgb(150, 246, 242) ;
+
+}
+h1 {
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  border-radius:20px ;
+  color:blue;
+}
+p {
+  font-size: 30px;
+  color:rgb(50, 27, 255);
+  
+}
