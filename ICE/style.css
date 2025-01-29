@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(35, 139, 225);
+  background-color: rgb(71, 157, 227);
   text-align:center;
 }
 .container {
@@ -13,5 +13,9 @@ body{
 }
 .quote {
   color:white;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 20px 0;
 }
 
