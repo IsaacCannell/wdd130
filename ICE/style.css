@@ -1,0 +1,17 @@
+body{
+  background-color: rgb(35, 139, 225);
+  text-align:center;
+}
+.container {
+  color:white;
+}
+
+.image-container img {
+  width: 150px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.quote {
+  color:white;
+}
+
