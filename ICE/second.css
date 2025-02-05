@@ -1,0 +1,33 @@
+
+
+
+.hero {
+  background-image: url('w05_circles.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: black;
+  padding: 60px 20px;
+}
+
+
+.profile {
+  background-color: #555;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+
+.circle-images {
+  display: flex;
+  gap: 40px; 
+}
+
+.circle-images img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%; 
+  border: 5px solid white; 
+}
