@@ -5,10 +5,11 @@
 }
 
 nav a {
-  background-color: rgb(152, 238, 236);
+  background-color: rgb(255, 255, 255);
   color: black;
   text-align: center;
   text-decoration: none;
+  padding: 10px;
 }
 
 #hero-msg h1, 
@@ -21,6 +22,13 @@ main section {
 #background {
   height: 725px;
   color: cadetblue;
+}
+
+body {
+  font-family: Garamond, Georgia, Times, serif;
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
 }
 
 body {
@@ -38,11 +46,15 @@ nav a:hover {
 .home-title {
   background-color: rgb(153, 153, 153);
   color: black;
+  font-family: 'Brush Script MT' , Arial , Verdana , Tahoma , cursive , sans-serif  ;
+  font-size:2em;
+  margin: 20px;
 }
 
 h4 {
   background-color: rgb(153, 153, 153);
   color: black;
+  margin: 20px;
 }
 
 .book, 
@@ -57,21 +69,30 @@ h4 {
 .join:hover {
   background-color: white;
   color: black; 
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
 }
 
 .msg h2 {
   background-color: rgb(153, 153, 153);
   color: black; 
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg p {
   background-color: rgb(153, 153, 153);
   color: black; 
+  padding: 35px;
+  margin: 20px;
 }
 
 footer {
   background-color: rgb(153, 153, 153);
   color: black; 
+  padding: 25px;
+  margin: 20px;
 }
 
 footer a {
@@ -79,6 +100,8 @@ footer a {
   color: black; 
   text-align: center;
   text-decoration: none;
+  padding: 25px;
+  margin: 20px;
 }
 
 footer a:hover {
@@ -96,6 +119,7 @@ footer p a:hover {
 
 .logo {
   width: 80px;
+  padding-top: 10px;
 }
 
 .icon {
@@ -109,8 +133,18 @@ footer p a:hover {
 img {
   display: block;
   margin: 0 auto;
+  border-radius: 120px ;
+  box-sizing: border-box;
 }
+
+
 
 h2 {
   text-align: center;
+  margin: 20px;
+ 
 }
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}  
