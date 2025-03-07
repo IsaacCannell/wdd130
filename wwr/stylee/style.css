@@ -1,0 +1,71 @@
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 50px;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  justify-items: start;
+  height: 70px;
+}
+
+.logo {
+  width: auto;
+  font-size: 24px;
+  max-height: 100%; 
+  display: flex;
+  align-items: center;
+}
+
+#home-button {
+  text-decoration: none;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#home-button:hover {
+  background-color: #0056b3;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.content1{
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  gap: 20px; 
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content1-p{
+grid-column: 1/2;
+}
+
+.content1-img{
+  grid-column: 2/3;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr; /* スマホでは縦並びにする */
+  }
+  
+  .content-item {
+    grid-template-columns: 1fr; /* 画像とテキストを縦並びにする */
+  }
+}
