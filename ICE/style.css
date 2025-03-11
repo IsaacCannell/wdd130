@@ -1,47 +1,69 @@
-body{
-  background-color: rgb(71, 157, 227);
-  font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.subtitle{
-font: size 18px; ;
-
-}
-.author{
-font-size: 28px;
-font-weight:bold;
-margin:10px 0;
-
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; 
 }
 
-.list{
-list-style-type: none;
-padding:0;
+.card {
+  width: 360px; 
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.list li{
-
+.card img {
+  width: 100%;
+  height: auto;
 }
 
-.container {
-  max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
+.card-content {
+  padding: 20px;
 }
 
-
-.image-container img {
-  width: 150px;
-  border-radius: 5px;
-  margin: 20px 0;
+.date {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  text-align: center;
 }
-.quote {
-  color:white;
-  font-size: 22px;
-  font-style: italic;
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  background: rgb(62, 113, 191);
+  
+}
+
+.stat {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.value {
+  font-size: 18px;
   font-weight: bold;
-  margin: 20px 0;
+  margin-bottom: 5px;
+  color: white;
 }
 
+.label {
+  font-size: 12px;
+  color: white;
+}
