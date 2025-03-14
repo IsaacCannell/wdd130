@@ -1,0 +1,23 @@
+header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 50px;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  justify-items: start;
+  height: 70px;
+}
+
+.logo {
+  width: auto;
+  font-size: 24px;
+  max-height: 100%; 
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  background-color: rgb(175, 118, 43);
+}
