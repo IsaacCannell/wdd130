@@ -1,0 +1,130 @@
+header{
+  display: flex;
+  height: 40vh;
+  width: 100%;
+  background-color: #00000083;
+}
+
+body{
+  display: grid;
+  grid-template-rows:1fr auto;
+  grid-template-columns:1fr;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#Home-button{
+  background-color:#fdfdfde6 ;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#Page_3{
+  color: #fdfdfde6;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logo{
+  height: 100px;
+  margin-left: 20px;
+  margin-top: 20px;
+  align-content: center;
+  padding: 15px;
+  border-radius:90px;
+  border-style:solid;
+  border-color:#fdfdfde6;
+}
+
+.site_name {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #3bd6bce6;
+  margin: 45px;
+}
+
+main {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.page2_content_1{
+  grid-column: 1/2;
+  grid-row: 1;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration:solid;
+  width: 800px;
+  background-color: #14232d83;
+  padding-top: 150px;
+}
+
+.page2_content_2{
+  grid-column: 2/3;
+  grid-row: 2;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration:solid;
+  width: 800px;
+  background-color: #14232d83;
+  padding-top: 150px;
+}
+
+.skills-h1{
+  margin: 20px 50px 20px;
+  font-size: 60px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #3dc1b1, #9800d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects-h1{
+  margin: 20px 50px 20px;
+  font-size: 60px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #3dc1b1, #9800d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.skills{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #dddddd;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.projects{
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #dddddd;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+img {
+  filter: grayscale(60%);
+  transition: filter 0.5s ease-in-out;
+  border-radius: 35px;
+  box-shadow: 0 0 10px 10px#11d0b0e6; 
+}
+
+studying-image{
+  display: flex;
+}
+
+market-image{
+  display: flex;
+}
+
