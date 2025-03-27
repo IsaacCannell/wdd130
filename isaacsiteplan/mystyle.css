@@ -150,12 +150,10 @@
 
   h1 {
     color:#3bd6bce6;
-    font-size:;
   }
 
   h2{
     color: #3bd6bce6;
-    font-size: ;
   }
 
 
@@ -237,7 +235,7 @@
     letter-spacing: -1px;
     font-size: 14px;
   }
-  .contact-us{
+  .contact-us a{
     color: #3bd6bce6;
   }
   footer{
