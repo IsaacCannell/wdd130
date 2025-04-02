@@ -51,13 +51,13 @@ p {
 }
 
 .primary {
-  background-color:#011405;
+  background-color:#1d4972;
 }
 .secondary {
-  background-color:#F5F5F5;
+  background-color:rgb(211, 211, 211);
 }
 .accent1 {
-  background-color:#C2FFF9;
+  background-color:#ccc90ee6;
 }
 .accent2{
   background-color:#B8E1FF;

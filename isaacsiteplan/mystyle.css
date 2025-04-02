@@ -6,35 +6,35 @@
     display: grid;
     grid-template-rows:1fr auto;
     grid-template-columns:1fr;
-    font-family: Arial, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 0;
   }
 
 
   header{
     display: flex;
-    height: 40vh;
+    height: 28vh;
     width: 100%;
-    background-color: #14232d83;
+    background-color: rgb(211, 211, 211);
     }
 
 
   span{
-  color:rgb(255, 255, 255);
+  color:#1d4972;
   }
 
   #Home-button{
-    background-color:#3bd6bce6 ;
+    background-color:#B8E1FF ;
     font-family: 'Orbitron', sans-serif;
   }
 
   #Page_2{
-    color: #3bd6bce6;
+    color: #B8E1FF;
     font-family: 'Orbitron', sans-serif;
   }
 
   #Page_3{
-    color: #3bd6bce6;
+    color: #B8E1FF;
     font-family: 'Orbitron', sans-serif;
   }
 
@@ -46,7 +46,7 @@
     padding: 15px;
     border-radius:90px;
     border-style:solid;
-    border-color:#3bd6bce6;
+    border-color:#1d4972;
   }
 
   .site_name {
@@ -54,7 +54,7 @@
     font-size: 2.5em;
     letter-spacing: 0.5px;
     text-align: center;
-    color: #3bd6bce6;
+    color: #B8E1FF;
     margin: 45px;
   }
 
@@ -63,27 +63,29 @@
     grid-template-columns:1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
-    padding: 20px;
+    padding-top: 100px;
+    margin:0 100px
   }
 
   .home-content{
   grid-column: 1/2;
   grid-row: 1;
+
   text-align: left;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: white;
+  color:#1d4972;
   text-decoration:solid;
   width: 800px;
-  background-color: #14232d83;
+  background-color: rgb(211, 211, 211);
   padding-top: 150px;
   }
 
   .home-p{
     font-size: 1.2rem;
     line-height: 1.8;
-    color: #dddddd;
+    color: #1d4972;
     max-width: 800px;
     margin: 20px auto;
   }
@@ -92,7 +94,7 @@
     margin: 20px 50px 20px;
     font-size: 60px;
     text-transform: uppercase;
-    background: linear-gradient(to right, #3dc1b1, #9800d4);
+    background: linear-gradient(to right, #1d4972, #B8E1FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -110,7 +112,7 @@
     filter: grayscale(60%);
     transition: filter 0.5s ease-in-out;
     border-radius: 35px;
-    box-shadow: 0 0 10px 10px#11d0b0e6; 
+    box-shadow: 0 0 10px 10px #B8E1FF; 
   }
 
   img:hover {
@@ -131,7 +133,7 @@
     height: 25px;
     text-decoration:none;
     color: white;
-    background-color: #14232d;
+    background-color:#1d4972;
     padding: 5px;
     border-radius: 50px;
     transition: background-color 0.3s;
@@ -139,21 +141,21 @@
 
   nav a:hover {
     transform: scale(1.1);
-    background-color: #3bd6bce6;
+    background-color: #B8E1FF;
   }
 
   body {
     font-family: 'Poppins', sans-serif;
-    background-color:#14232d ;
+    background-color:#1d4972;
     place-items: center;
   }
 
   h1 {
-    color:#3bd6bce6;
+    color:#B8E1FF
   }
 
   h2{
-    color: #3bd6bce6;
+    color: #B8E1FF;
   }
 
 
@@ -162,10 +164,10 @@
     width: 60px;
     float:left;
     margin:20px 20px;
-    background-color:#3bd6bce6;
+    background-color:#B8E1FF;
     border-radius: 50px;
     cursor:pointer;
-    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0px #1d4972;
     transition: all 0.3s ease-out;
     overflow: hidden;
   }
@@ -208,7 +210,7 @@
     font-weight: 500;
     line-height: 60px;
     margin-left: 10px;
-    color: #000000;
+    color:#1d4972;
     transition: all 0.3s ease-in-out;
   }
 
@@ -226,7 +228,7 @@
   }
 
   #site_plan{
-    color: #3bd6bce6;
+    color: #B8E1FF;
   }
   .contact-me{
     color: #fff;
@@ -236,9 +238,9 @@
     font-size: 14px;
   }
   .contact-us a{
-    color: #3bd6bce6;
+    color: #B8E1FF;
   }
   footer{
-  background-color:#14232d83;
+  background-color:#1d4972;
   text-align: center;
   }

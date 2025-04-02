@@ -4,18 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Isaacsite</title>
+  <link type="text/css" rel="stylesheet" href="page3style.css">
 </head>
 <body>
       <header>
         <a id="logo_link" href="index.html"></a>
           <img class="logo" src="93c2559846d244e6b5a3153eaacb88fc-free.png" alt="Isaac_logo">
           <h1 class="site_name">Isaac's Portfolio</h1>
-        <nav>
-          <a id="Home-button" href="index.html">Home</a>
-        </nav>
+        <section class="navigation">
+          <nav>
+            <a id="home" href="index.html">Home</a>
+            <a id="Page_2" href="isaacsitepage2.html">Page 2</a>
+          </nav>
+        </section>
       </header>
     <main>
-      <section class="page3_-content">
+      <section class="page3_content">
         <h1 class="aboutme-h1">About Me</h1>
         <p class="aboutme-content">About Me (Background))
           I was born in Irvine, California, and spent much of my life in Japan, where I developed a strong interest in both technology and cross-cultural communication. This diverse background has shaped the way I approach problem-solving, teamwork, and innovation in web development.
@@ -24,17 +28,8 @@
           
           Additionally, I value collaboration and prefer working in teams over solo projects. I believe that group work fosters better problem-solving, creativity, and communication, all of which are essential for success in the tech and business worlds.</p>
       </section>
-      <section class="navigation">
-        <nav>
-          <a id="Page_2" href="isaacsitepage2.html">Page 2</a>
-          <a id="home" href="index.html">Home</a>
-        </nav>
-      </section>
       <section class="family-image">
         <img src="family.png" alt="Family" width="700" height="700">
-      </section>
-      <section class="market-image">
-        <img src="marketing-image-1661764570116-b1b0a2da783c.jpeg" alt="marketing" width="700" height="700"> 
       </section>
     </main>
     <footer>
@@ -46,17 +41,19 @@
         <a id="site_plan" href="site-plan.html">Site Plan</a>
       </nav>
       <p><a href="contactus.html">Contact Us</a></p>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank">
-          <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-          <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-          <img src="images/instagram.png" alt="instagram icon">
-        </a>
-      </div>
+      <div class="wrapper">
+        <div class="button">
+          <div class="icon"><i class="fab fa-facebook-f"></i></div>
+          <span>Facebook</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-twitter"></i></div>
+          <span>Twitter</span>
+        </div>
+        <div class="button">
+          <div class="icon"><i class="fab fa-instagram"></i></div>
+          <span>Instagram</span>
+        </div>
     </footer>
 </body>
 </html>
